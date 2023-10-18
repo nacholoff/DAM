@@ -18,10 +18,7 @@ public class Main {
         System.out.println("Esta es la multiplicacion de "+numero1+ " x " +numero2+ " = "+multiplicacion);
         System.out.println("Esta es la divison de "+numero1+ " / " +numero2+ " = "+division);
         System.out.println("---------------------------------------------------------------");
-        System.out.println("Quieres realizar operaciones? 1 para si, 2 para salir.");
-
-        int calculadora = teclado.nextInt();
-        if (calculadora == 1) {
+       
             System.out.println("Elije una de estas opciones para realizar operaciones con los numeros que elijas");
             System.out.println("Teclea 1 para sumar");
             System.out.println("Teclea 2 para restar");
@@ -47,13 +44,10 @@ public class Main {
             case 4:
               System.out.println("El resultado de la division es: "+(num1/num2));
               break;
+  
             default:
-              System.out.println("i es mayor a tres.");
+              System.out.println("Gracias por usar el programa");
           }
-            
-        } else {
-            System.out.println("Gracias por usar la aplicacion");
-            
+              
         }
     }
-}
